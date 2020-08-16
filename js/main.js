@@ -252,7 +252,7 @@
 	
 
 	// Set the date we're counting down to
-		var countDownDate = new Date("Dec 02, 2017 15:37:25").getTime();
+		var countDownDate = new Date("Sep 12, 2020 17:00:00").getTime();
 
 		// Update the count down every 1 second
 		var x = setInterval(function() {
@@ -274,10 +274,10 @@
 		// + minutes + "Minutes " + seconds + "Seconds ";
 
 		// Display the result in an element with id="demo"
-		document.getElementById("days").innerHTML = days +" <small>days</small>";
-		document.getElementById("hours").innerHTML = hours + " <small>hours</small> ";
-		document.getElementById("minutes").innerHTML = minutes + " <small>minutes</small> ";
-		document.getElementById("seconds").innerHTML = seconds + " <small>seconds</small> ";
+		document.getElementById("days").innerHTML = days +" <small>дней</small>";
+		document.getElementById("hours").innerHTML = hours + " <small>часов</small> ";
+		document.getElementById("minutes").innerHTML = minutes + " <small>минут</small> ";
+		document.getElementById("seconds").innerHTML = seconds + " <small>секунд</small> ";
 
 		// If the count down is finished, write some text 
 		if (distance < 0) {

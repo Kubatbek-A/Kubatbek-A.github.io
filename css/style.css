@@ -12,6 +12,15 @@
   background-color: white !important;
   color: rgb(21 170 191) !important;
 }
+
+#sr-only{
+  font-size: 12px !important;
+  color: white !important;
+  width: 235px !important;
+  height: 20px !important;
+  padding-left: 10px;
+  clip: auto !important;
+}
 /* ======================================================= */
 body {
   font-family: "Source Sans Pro", Arial, sans-serif;
@@ -344,7 +353,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   .qbootstrap-cover,
   .video-hero {
-    heifght: inherit;
+    height: inherit;
     padding: 3em 0;
   }
 }
